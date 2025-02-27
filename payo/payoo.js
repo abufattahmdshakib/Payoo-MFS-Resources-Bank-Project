@@ -6,7 +6,7 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
     const convertPin = parseInt(digitPin);
     if (mobileNumber.length === 11) {
         if (convertPin === 1234) {
-            window.location.href = './second-page.html';
+            window.location.href = './add-money.html';
         }
         else {
             alert('Wrong Password Please Try Again');
